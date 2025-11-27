@@ -8,13 +8,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-color: var(--color);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-atomic: var(--font-atomic-age)
+  --font-sans: var(--font-nunito-sans);
 }
 
 
 body {
   background: var(--background);
   color: var(--color);
-  font-family:  Helvetica, sans-serif;
+  font-family:  var(--font-sans), sans-serif;
 }

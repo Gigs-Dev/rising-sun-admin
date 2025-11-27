@@ -1,9 +1,13 @@
-import Image from "next/image";
+import UserHeader from "./sections/UserHeader";
+import ManageUsers from "./sections/ManageUsers";
+import UsersTable from "./sections/UsersTable";
 
-export default function Home() {
+export default function UsersPage() {
   return (
-    <div className="">
-      Home
-    </div>
+    <main className="flex-col-view gap-6 p-4">
+      <UserHeader/>
+      <ManageUsers/>
+      <UsersTable/>
+    </main>
   );
 }

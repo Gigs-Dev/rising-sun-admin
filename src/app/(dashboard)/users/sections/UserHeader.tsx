@@ -1,0 +1,26 @@
+import { Flex } from '@/components/general/ui-layout';
+import Button from '@/components/ui/buttons/Button';
+import { TextField } from '@/components/ui/input/TextField';
+import Typography from '@/components/ui/Typography';
+import { Search, SlidersHorizontal } from 'lucide-react';
+import React from 'react'
+
+const UserHeader = () => {
+  return (
+    <Flex className='justify-between'>
+        <Typography variant='h2' className='text-[#00000066] text-[16px] leading-6 '>Users  / <span className='text-[#000000] ml-2 text-[16px] leading-6 '>All</span></Typography>
+
+        <Flex className='gap-3'>
+           <TextField 
+            wrapperClass='' 
+            className='bg-[#ffffff] py-3 px-4 text-[14px] text-[#A3A3A3] leading-[100%] w-[256px] border border-[#FFFFFF]' 
+            placeholder='Search'
+            icon={<Search />}/>
+
+            <Button leftIcon={<SlidersHorizontal/>} className='bg-[#ffffff] py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Filter</Button>
+        </Flex>
+    </Flex>
+  )
+}
+
+export default UserHeader;

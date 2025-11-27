@@ -10,8 +10,8 @@ import { LockKeyhole, ShieldAlert } from 'lucide-react';
 
 const AuthForm = () => {
   return (
-    <form className={`${inter.className} flex-col-view gap-5 w-full lg:w-[480px] rounded-2xl bg-[#FFFFFF] h-[445px] p-4 lg:p-8 border border-[#FFFFFF]`}>
-        <div className="flex-col-view h-[62px] w-[62px] bg-[#E7A61C] rounded-full">
+    <form className={`${inter.className} flex-col-center gap-5 w-full lg:w-[480px] rounded-2xl bg-[#FFFFFF] h-[445px] p-4 lg:p-8 border border-[#FFFFFF]`}>
+        <div className="flex-col-center h-[62px] w-[62px] bg-[#E7A61C] rounded-full">
             <h1 className='text-[#FFFFFF] text-[24px] font-semibold'>RS</h1>
         </div>
 

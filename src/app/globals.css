@@ -27,3 +27,15 @@ body {
   justify-content: center;
 }
 
+
+/* Yellow backgrud */
+.yellow-bg{
+  background-color: #E7A61C;
+  color: #FFFFFF;
+}
+
+
+/* Change Icon color to white */
+.icon-white {
+  filter: brightness(0) invert(1);
+}

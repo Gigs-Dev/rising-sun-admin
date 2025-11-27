@@ -2,16 +2,16 @@ import { Geist, Geist_Mono, Inter, Katibeh } from "next/font/google";
 
 import localFont from "next/font/local";
 
-export const atomiAge = localFont({
-  src: [
-    {
-      path: "../fonts/atomi-age/AtomiAge-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-  ],
-  variable: "--font-atomic-age",
-});
+// export const atomiAge = localFont({
+//   src: [
+//     {
+//       path: "../fonts/atomic-age/AtomiAge-Regular.ttf",
+//       weight: "400",
+//       style: "normal",
+//     },
+//   ],
+//   variable: "--font-atomic-age",
+// });
 
 
 export const nunitoSans = localFont({
@@ -45,3 +45,14 @@ export const katibeh = Katibeh({
   subsets: ['latin'],
   style: "normal"
 })
+
+
+export const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+export const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});

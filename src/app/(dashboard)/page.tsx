@@ -10,7 +10,7 @@ const DashboardPage = () => {
 
       <WidgetSection/>
 
-      <section className="flex flex-col gap-4 lg:flex-row">
+      <section className="flex flex-col items-center justify-center gap-4 xl:flex-row xl:justify-between">
         <AmountWagered/>
 
         <AmountWagered/>

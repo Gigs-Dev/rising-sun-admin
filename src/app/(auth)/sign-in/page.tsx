@@ -1,9 +1,10 @@
 import React from 'react'
+import AuthForm from './AuthForm';
 
 const SignInPage = () => {
   return (
-    <main className='bg-inherit flex items-center justify-center h-screen'>
-        <div className="bg-black flex items-center justify-center">SignInPage</div>
+    <main className='bg-inherit flex-col-view h-screen p-3'>
+        <AuthForm/>
     </main>
   )
 }

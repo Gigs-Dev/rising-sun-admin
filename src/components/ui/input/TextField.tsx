@@ -19,14 +19,13 @@ export const TextField = forwardRef<HTMLInputElement, TextFieldProps>(({label, i
           </label>
         )}
 
-        <div className="flex flex-row gap-1.5">
+        <div className={`flex flex-row items-center gap-1.5 rounded-lg ${className}`}>
             {icon && (
                 <span className="">{icon}</span>
             )}
 
             <input 
-                className={`w-full rounded-lg border px-3 py-2 outline-none transition-all 
-                ${className}` 
+                className={`w-full outline-none transition-all border-none` 
             }
             ref={ref}
             {...props}

@@ -1,8 +1,15 @@
+import Sidebar from '@/components/general/Sidebar';
 import React from 'react'
 
-const DashboardLayout = () => {
+const DashboardLayout = ({children}: {children: React.ReactNode}) => {
   return (
-    <div>DashboardLayout</div>
+    <main className="flex gap-4 max-w-[1400px] w-full px-2 mx-auto">
+        <Sidebar/>
+
+        <section className="flex flex-col">
+            {children}
+        </section>
+    </main>
   )
 }
 

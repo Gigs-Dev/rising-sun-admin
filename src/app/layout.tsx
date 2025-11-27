@@ -10,7 +10,7 @@ export const inter = Inter({
 
 export const metadata: Metadata = {
   title: "RisingSun - Admin",
-  description: "Manage User Information",
+  description: "Rising Sun Inc - Admin Management System",
   icons: {
     icon: '/logo.svg'
   }

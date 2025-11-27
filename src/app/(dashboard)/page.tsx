@@ -2,6 +2,7 @@ import { inter } from '../layout';
 import Typography from '@/components/ui/Typography';
 import WidgetSection from './sections/WidgetSection';
 import AmountWagered from './sections/AmountWagered';
+import AmountWithdrawn from './sections/AmountWithdrawn';
 
 const DashboardPage = () => {
   return (
@@ -10,10 +11,11 @@ const DashboardPage = () => {
 
       <WidgetSection/>
 
-      <section className="flex flex-col items-center justify-center gap-4 xl:flex-row xl:justify-between">
+      <section className="flex flex-col items-center mx-auto xl:mx-0 justify-center gap-4 xl:flex-row xl:justify-between">
         <AmountWagered/>
 
-        <AmountWagered/>
+        <AmountWithdrawn/>
+
       </section>
     </main>
   )

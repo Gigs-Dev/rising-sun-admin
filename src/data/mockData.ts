@@ -1,4 +1,4 @@
-export const amounts = [
+export const wageredAmountsData = [
   {
     month: 'Jan',
     amount: 4000,
@@ -29,3 +29,34 @@ export const amounts = [
   },
 ];
 
+
+export const withdrawalData = [
+  {
+    month: 'Jan',
+    amt: 2400,
+  },
+  {
+    month: 'Feb',
+    amt: 3210,
+  },
+  {
+    month: 'Mar',
+    amt: 290,
+  },
+  {
+    month: 'Apr',
+    amt: 2000,
+  },
+  {
+    month: 'May',
+    amt: 1181,
+  },
+  {
+    month: 'Jun',
+    amt: 2500,
+  },
+  {
+    month: 'Jul',
+    amt: 600,
+  },
+]

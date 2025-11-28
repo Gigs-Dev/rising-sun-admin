@@ -18,7 +18,7 @@ const UserHeader = () => {
             placeholder='Search'
             icon={<Search />}/>
 
-            <Button leftIcon={<SlidersHorizontal/>} className='bg-[#ffffff] py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Filter</Button>
+            <Button leftIcon={<SlidersHorizontal style={{ height: '18px', width: '18px' }}/>} className='bg-[#ffffff] py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Filter</Button>
         </Flex>
     </Flex>
   )

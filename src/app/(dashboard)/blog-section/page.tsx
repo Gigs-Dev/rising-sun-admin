@@ -1,9 +1,10 @@
 import Image from "next/image";
+import BlogHeader from "./section/BlogHeader";
 
 export default function BlogPage() {
   return (
-    <div className="flex-col-view gap-6 p-2 md:p-4">
-      BlogPage
+    <div className="flex-col-view gap-6">
+      <BlogHeader/>
     </div>
   );
 }

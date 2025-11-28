@@ -16,7 +16,7 @@ export default PageHeader;
 
 export const PageTitle  = ({text1, text2}: {text1: string, text2?: string}) => {
     return(
-        <div className="w-full">
+        <div className="hidden md:flex w-full">
             <Typography variant='h2' className='text-[#00000066] text-[16px] leading-6 '>{text1}<span className='text-[#000000] ml-2 text-[16px] leading-6 '>{text2}</span></Typography>
         </div>
     )

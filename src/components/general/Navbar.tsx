@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
                         
         {openMenu && (
-            <div className="flex flex-col items-start gap-4 w-full bg-[#FFFFFF] text-[#938278] p-4 absolute top-[85px] left-0 right-0 rounded-2xl ">
+            <div className="flex flex-col items-start gap-4 w-full bg-[#FFFFFF] text-[#938278] p-4 absolute top-[85px] left-0 right-0 rounded-2xl">
               {topbarData.map((item, index) => {
 
                 const isActive = pathname === item.url || pathname.startsWith(`${item.url}/`)

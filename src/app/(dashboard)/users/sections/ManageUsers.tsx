@@ -13,7 +13,7 @@ const ManageUsers = () => {
     <div className='flex flex-col gap-3 md:flex-row md:items-center md:justify-between'>
       <PageHeader title='Manage users' desc='Manage all users on the platform'/>
 
-        <Button leftIcon={<Download />} className='bg-[#ffffff] hidden md:flex py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Export</Button>
+        <Button leftIcon={<Download style={{ height: '18px', width: '18px' }}/>} className='bg-[#ffffff] hidden md:flex py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Export</Button>
 
         <Flex className='gap-2 justify-between w-full md:hidden'>
             <TextField
@@ -23,11 +23,11 @@ const ManageUsers = () => {
                 icon={<Search />}/>
 
         <div className="bg-[#ffffff] py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]">
-            <Download/>
+            <Download style={{ height: '18px', width: '18px' }}/>
         </div>
 
         <div className="bg-[#ffffff] py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]">
-            <SlidersHorizontal/>
+            <SlidersHorizontal style={{ height: '18px', width: '18px' }}/>
         </div>
         </Flex>
     </div>

@@ -4,11 +4,12 @@ import { TextField } from '@/components/ui/input/TextField';
 import Typography from '@/components/ui/Typography';
 import { Search, SlidersHorizontal } from 'lucide-react';
 import React from 'react'
+import { PageTitle } from '../../sections/PageHeader';
 
 const UserHeader = () => {
   return (
     <Flex className='hidden md:flex justify-between'>
-        <Typography variant='h2' className='text-[#00000066] text-[16px] leading-6 '>Users  / <span className='text-[#000000] ml-2 text-[16px] leading-6 '>All</span></Typography>
+      <PageTitle text1='Users  /' text2='All'/>
 
         <Flex className='gap-3'>
            <TextField 

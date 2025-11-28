@@ -5,15 +5,13 @@ import { inter } from '@/app/layout';
 import React from 'react'
 import { Download, Search, SlidersHorizontal } from 'lucide-react';
 import { TextField } from '@/components/ui/input/TextField';
+import PageHeader from '../../sections/PageHeader';
 
 
 const ManageUsers = () => {
   return (
-    <Flex className='flex-col gap-3 justify-center md:flex-row md:justify-between'>
-        <div className="flex-col-view gap-2">
-            <Typography variant='h1' className={`${inter.className} text-[#171717]`}>Manage users</Typography>
-            <Typography variant='span' className={`${inter.className} text-[#00000066] text-[18px leading-[28px]]`}>Manage all users on the platform</Typography>
-        </div>
+    <div className='flex flex-col gap-3 md:flex-row md:items-center md:justify-between'>
+      <PageHeader title='Manage users' desc='Manage all users on the platform'/>
 
         <Button leftIcon={<Download />} className='bg-[#ffffff] hidden md:flex py-3 px-4 rounded-xl cursor-pointer border border-[#FFFFFF]'>Export</Button>
 
@@ -32,7 +30,7 @@ const ManageUsers = () => {
             <SlidersHorizontal/>
         </div>
         </Flex>
-    </Flex>
+    </div>
   )
 }
 

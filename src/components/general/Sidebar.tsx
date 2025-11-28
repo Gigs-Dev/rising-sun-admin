@@ -16,7 +16,7 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   return (
-    <Box className='hidden w-[220px] md:flex flex-col justify-between h-screen py-4'>
+    <Box className='hidden w-[220px] md:flex flex-col justify-between h-screen py-4 px-1'>
         <section className="hidden md:flex flex-col gap-4 w-full">
 
             <div className="hidden md:flex items-center gap-3 w-full my-8 bg-[#000000]">

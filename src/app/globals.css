@@ -10,13 +10,16 @@
   --color-color: var(--color);
   --font-atomic: var(--font-atomic-age)
   --font-sans: var(--font-nunito-sans);
+  --font-inter: var(--font-inter)
 }
 
 
 body {
   background: var(--background);
   color: var(--color);
-  font-family:  var(--font-sans), sans-serif;
+  font-family:  var(--font-inter), var(--font-sans), sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* Flex col class */

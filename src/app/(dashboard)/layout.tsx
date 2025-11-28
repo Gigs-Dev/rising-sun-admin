@@ -7,7 +7,7 @@ const DashboardLayout = ({children}: {children: React.ReactNode}) => {
     <main className="flex gap-4 max-w-[1400px] w-full md:mx-auto min-h-screen h-full">
         <Sidebar/>
 
-        <section className="flex flex-col w-full h-full">
+        <section className="flex flex-col w-full h-full p-2 md:p-4">
             <Navbar/>
             {children}
         </section>

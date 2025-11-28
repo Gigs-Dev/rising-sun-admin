@@ -7,7 +7,7 @@ import React from 'react'
 
 const UserHeader = () => {
   return (
-    <Flex className='justify-between'>
+    <Flex className='hidden md:flex justify-between'>
         <Typography variant='h2' className='text-[#00000066] text-[16px] leading-6 '>Users  / <span className='text-[#000000] ml-2 text-[16px] leading-6 '>All</span></Typography>
 
         <Flex className='gap-3'>
